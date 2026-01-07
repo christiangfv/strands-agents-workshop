@@ -12,7 +12,7 @@
 [![CI](https://github.com/christiangfv/strands-agents-workshop/actions/workflows/ci.yml/badge.svg)](https://github.com/christiangfv/strands-agents-workshop/actions)
 [![Python Versions](https://img.shields.io/badge/Python-3.8+-blue?style=flat&logo=python)](https://www.python.org/)
 
-[🚀 Inicio Rápido](#-instalación) • [📚 Documentación](#-estructura-del-taller) • [🤝 Contribuir](CONTRIBUTING.md) • [📜 Código de Conducta](CODE_OF_CONDUCT.md)
+[🚀 Inicio Rápido](#-instalación) • [📚 Documentación](#-estructura-del-taller) • [🤝 Contribuir](CONTRIBUTING.md) • [📜 Código de Conducta](CODE_OF_CONDUCT.md) • [⚙️ GitHub Setup](GITHUB_SETUP.md)
 
 </div>
 
