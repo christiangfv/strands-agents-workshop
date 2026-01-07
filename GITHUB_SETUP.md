@@ -22,7 +22,7 @@ Después de crear el repositorio, GitHub te mostrará comandos. Ejecuta:
 
 ```bash
 # Agregar el remote origin (reemplaza TU_USUARIO por tu username de GitHub)
-git remote add origin https://github.com/christianfuentesradar/strands-agents-workshop.git
+git remote add origin https://github.com/christiangfv/strands-agents-workshop.git
 
 # Verificar que el remote se agregó
 git remote -v

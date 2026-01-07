@@ -16,7 +16,7 @@ Este proyecto sigue un código de conducta para asegurar que la comunidad sea ac
 
 ### Tipos de Contribuciones
 
-- 🐛 **Reportar bugs**: Usa los [issues de GitHub](https://github.com/christianfuentesradar/strands-agents-workshop/issues)
+- 🐛 **Reportar bugs**: Usa los [issues de GitHub](https://github.com/christiangfv/strands-agents-workshop/issues)
 - 💡 **Sugerir mejoras**: Crea un issue con la etiqueta `enhancement`
 - 📝 **Mejorar documentación**: Edita READMEs, agrega ejemplos, etc.
 - 🛠️ **Contribuir código**: Implementa nuevas features o arregla bugs
@@ -47,7 +47,7 @@ Este proyecto sigue un código de conducta para asegurar que la comunidad sea ac
 
 ```bash
 # Clona el repositorio
-git clone https://github.com/christianfuentesradar/strands-agents-workshop.git
+git clone https://github.com/christiangfv/strands-agents-workshop.git
 cd strands-agents-workshop
 
 # Crea entorno virtual
@@ -206,8 +206,8 @@ OPENWEATHER_API_KEY=tu_api_key_opcional
 
 ## 📞 Soporte
 
-- 🐛 **Bugs**: [GitHub Issues](https://github.com/christianfuentesradar/strands-agents-workshop/issues)
-- 💬 **Discusiones**: [GitHub Discussions](https://github.com/christianfuentesradar/strands-agents-workshop/discussions)
+- 🐛 **Bugs**: [GitHub Issues](https://github.com/christiangfv/strands-agents-workshop/issues)
+- 💬 **Discusiones**: [GitHub Discussions](https://github.com/christiangfv/strands-agents-workshop/discussions)
 - 📧 **Email**: christiangfv@gmail.com
 
 ## 🙏 Reconocimientos

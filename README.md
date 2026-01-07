@@ -8,8 +8,8 @@
 
 *Un taller progresivo para dominar agentes inteligentes con Strands*
 
-[![GitHub Repo](https://img.shields.io/badge/GitHub-Repository-black?style=flat&logo=github)](https://github.com/christianfuentesradar/strands-agents-workshop)
-[![CI](https://github.com/christianfuentesradar/strands-agents-workshop/actions/workflows/ci.yml/badge.svg)](https://github.com/christianfuentesradar/strands-agents-workshop/actions)
+[![GitHub Repo](https://img.shields.io/badge/GitHub-Repository-black?style=flat&logo=github)](https://github.com/christiangfv/strands-agents-workshop)
+[![CI](https://github.com/christiangfv/strands-agents-workshop/actions/workflows/ci.yml/badge.svg)](https://github.com/christiangfv/strands-agents-workshop/actions)
 [![Python Versions](https://img.shields.io/badge/Python-3.8+-blue?style=flat&logo=python)](https://www.python.org/)
 
 [🚀 Inicio Rápido](#-instalación) • [📚 Documentación](#-estructura-del-taller) • [🤝 Contribuir](CONTRIBUTING.md) • [📜 Código de Conducta](CODE_OF_CONDUCT.md) • [⚙️ GitHub Setup](GITHUB_SETUP.md)

@@ -15,7 +15,7 @@ fi
 # Agregar remote si no existe
 if ! git remote get-url origin >/dev/null 2>&1; then
     echo "📡 Agregando remote origin..."
-    git remote add origin https://github.com/christianfuentesradar/strands-agents-workshop.git
+    git remote add origin https://github.com/christiangfv/strands-agents-workshop.git
 fi
 
 # Push de main
@@ -37,7 +37,7 @@ git push origin feature/docs-and-testing
 echo "✅ ¡Push completo exitoso!"
 echo ""
 echo "🎯 Próximos pasos:"
-echo "1. Ve a https://github.com/christianfuentesradar/strands-agents-workshop"
+echo "1. Ve a https://github.com/christiangfv/strands-agents-workshop"
 echo "2. Revisa que todas las branches aparezcan"
 echo "3. Configura branch protection (Settings > Branches)"
 echo "4. Configura labels para issues"
