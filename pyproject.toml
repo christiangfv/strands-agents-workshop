@@ -54,10 +54,10 @@ docs = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/christiangfv/strands-agents-workshop"
-Repository = "https://github.com/christiangfv/strands-agents-workshop"
-Issues = "https://github.com/christiangfv/strands-agents-workshop/issues"
-Documentation = "https://github.com/christiangfv/strands-agents-workshop#readme"
+Homepage = "https://github.com/christianfuentesradar/strands-agents-workshop"
+Repository = "https://github.com/christianfuentesradar/strands-agents-workshop"
+Issues = "https://github.com/christianfuentesradar/strands-agents-workshop/issues"
+Documentation = "https://github.com/christianfuentesradar/strands-agents-workshop#readme"
 
 [tool.setuptools]
 packages = ["strands_workshop"]
