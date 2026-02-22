@@ -1,271 +1,267 @@
-# 🤖 Strands Agents Workshop
-
 <div align="center">
 
-![Strands Agents Workshop](https://img.shields.io/badge/Strands-Agents-blue?style=for-the-badge&logo=robot)
-![Python](https://img.shields.io/badge/Python-3.8+-3776AB?style=for-the-badge&logo=python)
-![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
+# 🤖 Strands Agents Workshop
 
-*Un taller progresivo para dominar agentes inteligentes con Strands*
+[![Python](https://img.shields.io/badge/Python-3.8+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
+[![AWS Bedrock](https://img.shields.io/badge/AWS-Bedrock-FF9900?style=for-the-badge&logo=amazon-aws&logoColor=white)](https://aws.amazon.com/bedrock/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
 
-[![GitHub Repo](https://img.shields.io/badge/GitHub-Repository-black?style=flat&logo=github)](https://github.com/christiangfv/strands-agents-workshop)
 [![CI](https://github.com/christiangfv/strands-agents-workshop/actions/workflows/ci.yml/badge.svg)](https://github.com/christiangfv/strands-agents-workshop/actions)
-[![Python Versions](https://img.shields.io/badge/Python-3.8+-blue?style=flat&logo=python)](https://www.python.org/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-christiangfv-0A66C2?style=flat&logo=linkedin)](https://linkedin.com/in/christiangfv)
+[![GitHub](https://img.shields.io/badge/GitHub-christiangfv-181717?style=flat&logo=github)](https://github.com/christiangfv)
 
-[🚀 Inicio Rápido](#-instalación) • [📚 Documentación](#-estructura-del-taller) • [🤝 Contribuir](CONTRIBUTING.md) • [📜 Código de Conducta](CODE_OF_CONDUCT.md) • [⚙️ GitHub Setup](GITHUB_SETUP.md)
+**A progressive, hands-on workshop to master intelligent agents with the [Strands](https://github.com/strands-agents/sdk-python) framework.**  
+*From zero to production-ready Planner-Executor architecture — step by step.*
+
+[🚀 Quick Start](#-quick-start) • [📚 Workshop Levels](#-workshop-structure) • [🏗️ Architecture](#️-architecture) • [🤝 Contributing](CONTRIBUTING.md)
+
+---
 
 </div>
 
----
+## 🌟 What is this?
 
-## 🌟 ¿Qué es este taller?
+**Strands Agents Workshop** is a practical, progressive course for building intelligent agents using the [Strands SDK](https://github.com/strands-agents/sdk-python). You'll go from a simple conversational agent to a full **Planner-Executor** architecture — the same pattern used in production AI systems.
 
-**Strands Agents Workshop** es un curso práctico diseñado para enseñarte a construir agentes inteligentes usando el framework [Strands](https://strands.ai/). Desde lo más básico hasta arquitecturas complejas, aprenderás paso a paso cómo crear agentes capaces de razonar, usar herramientas y planificar tareas.
+> Built from real-world experience developing AI agents for fraud detection and financial automation at scale using **AWS Bedrock + Strands**.
 
-### 🎯 ¿Para quién es?
+### 🎯 Who is this for?
 
-- 👨‍💻 **Desarrolladores** que quieren aprender sobre agentes IA
-- 🎓 **Estudiantes** de IA/ML interesados en agentes conversacionales
-- 🏗️ **Arquitectos** que necesitan entender patrones de agentes
-- 🤖 **Entusiastas** de IA que quieren experimentar con LLMs
-
-### 📈 Nivel de Dificultad
-
-🟢 **Principiante** → 🟡 **Intermedio** → 🟠 **Avanzado** → 🔴 **Experto**
+| Audience | Why it matters |
+|----------|---------------|
+| 👨‍💻 **Backend Developers** | Learn to add AI reasoning to your services |
+| 🎓 **ML/AI Students** | Understand real-world agent architectures |
+| 🏗️ **Solution Architects** | Evaluate agent patterns for production |
+| 🤖 **AI Enthusiasts** | Experiment with LLMs + tools hands-on |
 
 ---
 
-## 📚 Estructura del Taller
+## 📚 Workshop Structure
 
-### 🟢 [01-agente-simple](./01-agente-simple/)
-**Fundamentos Básicos**
-- ✅ Agente conversacional simple
-- ✅ Integración con LiteLLM
-- ✅ Sin herramientas ni complejidad
-- 🎯 **Aprendizaje**: API básica de Strands
+> Each level builds on the previous. You can start from any level, but the progression is designed to be linear.
+
+### 🟢 Level 01 — [Simple Agent](./01-agente-simple/)
+**Core Foundations**
+- Conversational agent with zero tools
+- Basic Strands SDK API
+- LiteLLM / OpenRouter integration
 
 ```bash
 cd 01-agente-simple && python agent.py
 ```
 
-### 🟡 [02-agente-actual](./02-agente-actual/)
-**Primeras Herramientas**
-- ✅ Una herramienta funcional (datos random)
-- ✅ Sistema planner-executor básico
-- ✅ Logging personalizado
-- 🎯 **Aprendizaje**: Patrón tool + planificación
+---
+
+### 🟡 Level 02 — [Agent with Tools](./02-agente-actual/)
+**First Tool Integration**
+- Single functional tool
+- Basic Planner-Executor pattern
+- Custom logging
 
 ```bash
 cd 02-agente-actual && python agent.py
 ```
 
-### 🟠 [03-agente-multi-tools](./03-agente-multi-tools/)
-**Arquitectura Multi-Herramienta**
-- ✅ **5 herramientas especializadas**:
-  - 🌤️ Consulta de clima
-  - 🔢 Calculadora matemática
-  - 🐾 Información de Pokémon
-  - 😄 Generador de chistes
-  - 🌐 Traductor de idiomas
-- ✅ Integración con APIs externas
-- 🎯 **Aprendizaje**: Arquitectura modular
+---
+
+### 🟠 Level 03 — [Multi-Tool Agent](./03-agente-multi-tools/)
+**Modular Architecture**
+
+5 specialized tools:
+| Tool | Description |
+|------|-------------|
+| 🌤️ Weather | Real-time weather via external API |
+| 🔢 Calculator | Mathematical expressions |
+| 🐾 Pokémon | PokéAPI integration |
+| 😄 Jokes | Random joke generator |
+| 🌐 Translator | Multi-language translation |
 
 ```bash
 cd 03-agente-multi-tools && python agent.py
 ```
 
-### 🔴 [04-agente-planner-executor](./04-agente-planner-executor/)
-**Agente Avanzado Completo**
-- ✅ Todas las herramientas del nivel 3
-- ✅ **Sistema planner-executor inteligente**
-- ✅ Planes JSON estructurados
-- ✅ Comando `plan [tarea]` para tareas complejas
-- 🎯 **Aprendizaje**: Coordinación y planificación avanzada
+---
+
+### 🔴 Level 04 — [Planner-Executor Agent](./04-agente-planner-executor/)
+**Production-Ready Architecture**
+- Full Planner-Executor coordination
+- Structured JSON task planning
+- All Level 03 tools included
+- `plan [task]` command for complex goals
 
 ```bash
 cd 04-agente-planner-executor && python agent.py
+
+# Example: complex task planning
+> plan organize a team meeting with weather and availability checks
 ```
 
 ---
 
-## 🚀 Instalación
+## 🚀 Quick Start
 
-### Prerrequisitos
+### Prerequisites
 
-- **Python 3.8+**
-- **Git**
-- **API Key de OpenRouter** (gratuita)
+- Python 3.8+
+- Git
+- [OpenRouter API Key](https://openrouter.ai) (free) **or** AWS credentials for Bedrock
 
-### Instalación Rápida
+### Installation
 
 ```bash
-# 1. Clona el repositorio
+# 1. Clone the repository
 git clone https://github.com/christiangfv/strands-agents-workshop.git
 cd strands-agents-workshop
 
-# 2. Crea entorno virtual
+# 2. Create virtual environment
 python -m venv .venv
 source .venv/bin/activate  # Windows: .venv\Scripts\activate
 
-# 3. Instala dependencias
+# 3. Install dependencies
 pip install -e ".[dev]"
 
-# 4. Configura variables de entorno
+# 4. Configure environment
 cp .env.example .env
-# Edita .env con tu OPENROUTER_API_KEY
+# Edit .env with your API key
 ```
 
-### Verificación
+### Environment Variables
+
+```env
+# Option A: OpenRouter (recommended for workshop)
+OPENROUTER_API_KEY=your_key_here
+
+# Option B: AWS Bedrock (production-grade)
+AWS_ACCESS_KEY_ID=your_key
+AWS_SECRET_ACCESS_KEY=your_secret
+AWS_DEFAULT_REGION=us-east-1
+```
+
+### Verify Installation
 
 ```bash
-# Ejecuta tests
-pytest
-
-# Verifica instalación
-python -c "import strands; print('✅ Strands instalado correctamente')"
+python -c "import strands; print('✅ Strands ready')"
+pytest  # run test suite
 ```
 
 ---
 
-## 🎮 Uso Interactivo
-
-### Nivel 1 - Básico
-```bash
-cd 01-agente-simple
-python agent.py
-```
-```
-Tu: Hola, ¿cómo estás?
-Agente: ¡Hola! Estoy bien, gracias por preguntar. ¿En qué puedo ayudarte?
-```
-
-### Nivel 3 - Multi-herramientas
-```bash
-cd 03-agente-multi-tools
-python agent.py
-```
-```
-Tu: ¿Qué tiempo hace en Madrid?
-Agente: 🌤️ Clima en Madrid: 22°C, cielo despejado
-
-Tu: Calcula 2 elevado a la potencia 10
-Agente: 🧮 2**10 = 1024.0
-```
-
-### Nivel 4 - Planificación Avanzada
-```bash
-cd 04-agente-planner-executor
-python agent.py
-```
-```
-Tu: plan organizar una fiesta pokemon
-Agente: 📋 Planificando: organizar una fiesta pokemon
-📋 Plan creado: {"objetivo": "organizar fiesta pokemon", "pasos": [...]}
-🎯 === EJECUTANDO PLAN ===
-📍 Paso 1/4: Buscar información de Pokémon aleatorios
-🐾 Pikachu - Tipo: Eléctrico - Altura: 0.4m - Peso: 6.0kg
-...
-```
-
----
-
-## 🏗️ Arquitectura
+## 🏗️ Architecture
 
 ```
 strands-agents-workshop/
-├── 01-agente-simple/          # 🟢 Fundamentos
-│   └── agent.py               # Agente básico
-├── 02-agente-actual/          # 🟡 Tools básicas
-│   ├── agent.py               # Lógica principal
-│   └── tools.py               # Herramientas
-├── 03-agente-multi-tools/     # 🟠 Multi-tools
-│   ├── agent.py               # Lógica principal
-│   └── tools.py               # 5 herramientas
-├── 04-agente-planner-executor/# 🔴 Avanzado
-│   ├── agent.py               # Lógica principal
-│   └── tools.py               # Tools + planner
-├── tests/                     # 🧪 Tests
-├── docs/                      # 📖 Documentación
-├── pyproject.toml             # ⚙️ Configuración moderna
-├── requirements.txt           # 📦 Dependencias
-└── README.md                  # 📚 Este archivo
+├── 01-agente-simple/           # 🟢 Level 1 — Basics
+│   └── agent.py
+├── 02-agente-actual/           # 🟡 Level 2 — First tools
+│   ├── agent.py
+│   └── tools.py
+├── 03-agente-multi-tools/      # 🟠 Level 3 — Multi-tool
+│   ├── agent.py
+│   └── tools.py
+├── 04-agente-planner-executor/ # 🔴 Level 4 — Advanced
+│   ├── agent.py
+│   └── tools.py
+├── strands_workshop/           # Shared library
+│   ├── agents.py
+│   └── tools.py
+├── pyproject.toml              # Modern Python packaging
+├── requirements.txt
+└── README.md
 ```
 
-### Principios de Diseño
+### Design Principles
 
-- 🎯 **Progresión lógica**: Cada nivel construye sobre el anterior
-- 🔧 **Separación de responsabilidades**: Tools separadas de lógica de agentes
-- 🧪 **Tests incluidos**: Cobertura de funcionalidad crítica
-- 📚 **Documentación completa**: README en cada nivel
-- 🚀 **Production-ready**: Configuración moderna con pyproject.toml
+| Principle | Description |
+|-----------|-------------|
+| 📈 **Progressive Complexity** | Each level builds on the previous |
+| 🔧 **Separation of Concerns** | Tools isolated from agent logic |
+| 🧪 **Tests Included** | Critical coverage in each level |
+| 🚀 **Production-Ready Patterns** | Planner-Executor used in real systems |
+
+---
+
+## 🔄 Planner-Executor Pattern
+
+The Level 4 agent implements the **Planner-Executor** pattern — a production architecture where:
+
+```
+User Request
+     │
+     ▼
+ ┌─────────┐    JSON Plan    ┌──────────────┐
+ │ Planner │ ─────────────► │   Executor   │
+ │  (LLM)  │                │  (Tools +    │
+ └─────────┘                │   LLM loop)  │
+                             └──────────────┘
+                                    │
+                              Final Response
+```
+
+1. **Planner**: LLM receives the task and generates a structured JSON plan
+2. **Executor**: Steps are executed sequentially using available tools
+3. **Feedback loop**: Results from each step inform the next
+
+> This is the same pattern used in production fraud detection systems with AWS Bedrock.
 
 ---
 
 ## 🧪 Testing
 
 ```bash
-# Ejecutar toda la suite de tests
+# Run full test suite
 pytest
 
-# Tests con cobertura
+# With coverage report
 pytest --cov=strands_workshop --cov-report=html
 
-# Tests de un nivel específico
+# Specific level
 pytest tests/test_01_agente_simple/
-
-# Tests de integración
-pytest tests/test_integration/
 ```
 
 ---
 
-## 🤝 Contribuir
+## 🤝 Contributing
 
-¡Las contribuciones son bienvenidas! Lee nuestra [Guía de Contribución](CONTRIBUTING.md) para:
+Contributions are welcome! See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 
-- 🐛 Reportar bugs
-- 💡 Sugerir nuevas features
-- 📝 Mejorar documentación
-- 🛠️ Contribuir código
-- 🧪 Agregar tests
-
-### Flujo de Trabajo
-
-1. Fork el proyecto
-2. Crea una feature branch: `git checkout -b feature/nueva-funcionalidad`
-3. Commit tus cambios: `git commit -m 'feat: agrega nueva funcionalidad'`
-4. Push a la branch: `git push origin feature/nueva-funcionalidad`
-5. Abre un Pull Request
+```bash
+git checkout -b feature/new-tool
+git commit -m "feat: add new tool"
+git push origin feature/new-tool
+# Open a Pull Request
+```
 
 ---
 
-## 📜 Licencia
+## 👤 About the Author
 
-Este proyecto está bajo la **Licencia MIT**. Ver [LICENSE](LICENSE) para más detalles.
+**Christian Fuentes** — AI/ML Engineer building production AI agents.
 
----
+Currently developing fraud detection agents using **AWS Bedrock + Strands SDK** at [Radar](https://radar.cl) — the same patterns taught in this workshop.
 
-## 🙏 Agradecimientos
-
-- **[Strands](https://strands.ai/)** por el framework de agentes
-- **[OpenRouter](https://openrouter.ai/)** por acceso a modelos de IA
-- **Comunidad Open Source** por las inspiraciones y mejores prácticas
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat&logo=linkedin)](https://linkedin.com/in/christiangfv)
+[![GitHub](https://img.shields.io/badge/GitHub-@christiangfv-181717?style=flat&logo=github)](https://github.com/christiangfv)
 
 ---
 
-## 📞 Contacto
+## 📄 License
 
-**Christian GFV**
-- 📧 Email: christiangfv@gmail.com
-- 🔗 GitHub: [@christiangfv](https://github.com/christiangfv)
-- 🐛 Issues: [GitHub Issues](https://github.com/christiangfv/strands-agents-workshop/issues)
+MIT License — see [LICENSE](LICENSE) for details.
+
+---
+
+## 🙏 Acknowledgements
+
+- [Strands SDK](https://github.com/strands-agents/sdk-python) — the agent framework
+- [OpenRouter](https://openrouter.ai) — multi-model API access
+- [AWS Bedrock](https://aws.amazon.com/bedrock/) — production LLM infrastructure
 
 ---
 
 <div align="center">
 
-**⭐ Si te gusta el proyecto, dale una estrella en GitHub!**
+**⭐ If this helped you, star it on GitHub!**
 
-*Hecho con ❤️ para la comunidad de IA*
+*Tags: `ai-agents` `strands` `planner-executor` `aws-bedrock` `llm` `python` `workshop` `tutorial`*
 
 </div>
