@@ -6,7 +6,6 @@
 [![AWS Bedrock](https://img.shields.io/badge/AWS-Bedrock-FF9900?style=for-the-badge&logo=amazon-aws&logoColor=white)](https://aws.amazon.com/bedrock/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
 
-[![CI](https://github.com/christiangfv/strands-agents-workshop/actions/workflows/ci.yml/badge.svg)](https://github.com/christiangfv/strands-agents-workshop/actions)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-christiangfv-0A66C2?style=flat&logo=linkedin)](https://linkedin.com/in/christiangfv)
 [![GitHub](https://img.shields.io/badge/GitHub-christiangfv-181717?style=flat&logo=github)](https://github.com/christiangfv)
 
